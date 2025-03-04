@@ -1,39 +1,42 @@
-body{
-    width:100vw;
-    height:100vh;
-    background-color:rgb(18, 128, 158);
-  
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(18, 128, 158);
+
 }
-body >h1{
-    
-    display:flex;
+
+body>h1 {
+
+    display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
-.todocontainer{
+
+.todocontainer {
     margin-top: 30vh;
-    display:flex;
+    display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
-.todocontainer > input{
+
+.todocontainer>input {
     width: 24vw;
     height: 8vh;
 }
-.todocontainer > button{
-   width:5vw;
+
+.todocontainer>button {
+    width: 5vw;
     height: 9vh;
 }
-.listtask2{
+
+.listtask2 {
     margin-left: 32.5vw;
-    display:flex;
-   
+    display: flex;
+
 }
 
-.listtask2 > ul {
+.listtask2>ul {
     list-style: none;
-    margin:0px;
-   
+    margin: 0px;
+
 }
-
-
